@@ -1,0 +1,1 @@
+﻿using System.Drawing;using System.Windows.Forms;namespace Bai4_5_MDI{public class FormRegister:Form{public FormRegister(){Text="Đăng ký học viên - Form con";Label l=new Label();l.Text="Đây là Form đăng ký học viên";l.AutoSize=true;l.Location=new Point(30,40);Controls.Add(l);Size=new Size(400,200);}}}
